@@ -73,5 +73,44 @@ streamlit run app.py
 - Arabic spam detection
 - REST API deployment
 - Docker support
-  
+
+### 📸 Screenshots
+
+## Home Interface
+
+<img src="images/home-interface.png" width="900">
+
+The main interface allows users to enter SMS messages and classify them as Spam or Ham.
+
+---
+
+## Spam Prediction Example
+
+<img src="images/spam-prediction.png" width="900">
+
+Example showing the model successfully identifying a spam message with high confidence.
+
+---
+
+## Prediction Probability
+
+<img src="images/probability-chart.png" width="900">
+
+Visualization of the confidence score returned by the classifier.
+
+---
+
+## ROC Curve Comparison
+
+<img src="images/roc-curve.png" width="900">
+
+ROC curve comparing Naive Bayes and Support Vector Machine (SVM) classifiers.
+
+---
+
+## Model Performance
+
+<img src="images/model-performance.png" width="900">
+
+Performance summary including evaluation metrics and confusion matrices for both models.
 > Note: Model files are generated locally after running `train_models.py`.
