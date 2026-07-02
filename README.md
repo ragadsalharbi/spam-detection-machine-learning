@@ -73,3 +73,5 @@ streamlit run app.py
 - Arabic spam detection
 - REST API deployment
 - Docker support
+  
+> Note: Model files are generated locally after running `train_models.py`.
